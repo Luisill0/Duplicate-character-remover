@@ -1,0 +1,41 @@
+.inputPage {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 80px; 
+    font-size: 35pt;
+    margin: 20vh;
+}
+
+.textInput {
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #000000;
+}
+
+.textInput:focus {
+    border: 1px solid #3E92CC;
+    outline: 0;
+}
+
+
+.textInputSubmit {
+    font-size: 40px;
+    padding: 10px 20px;
+    background-color: #FFE8F3;
+    color: #3D2B3D;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #3D2B3D;
+    border-left: none;
+}
+
+.textInputSubmit:hover {
+    opacity: 60%;
+    cursor: pointer;
+}

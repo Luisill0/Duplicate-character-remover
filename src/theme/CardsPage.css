@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    background-color: #7E5A9B;
+    align-items: center;
+    height: 5rem;
+}
+.header span {
+    margin: 0 20px;
+    font-size: 1.5rem;
+    color: #F3FFE1;
+}
+.header .back:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.strings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.cardsContainer {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    min-width: 150px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    position: relative;
+}
+.card span {
+    background-color: inherit;
+    color: #F3FFE1;
+    font-size: 5rem;
+}
+.card .delete {
+    background-color: inherit;
+    color: #F3FFE1;
+    align-self: flex-end;
+    left: auto;
+    top: 0;
+    position: absolute;
+    margin: 5px 5px;
+    font-size: 2rem;
+}
+.card .delete:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
