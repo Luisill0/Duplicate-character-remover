@@ -22,9 +22,9 @@ export const AppRouter = () => {
             <UserProvider>
                 <ReactNotifications/>
                 <Routes>
-                    <Route path="/*" element={<Navigate to="/" />} />
-                    <Route path="/" element={<InputPage />} />
-                    <Route path="/cards" element={<PrivateRouter> <CardsPage /> </PrivateRouter>} />
+                    <Route path="/*" element={<Navigate to="/duplicate-character-remover" />} />
+                    <Route path="/duplicate-character-remover" element={<InputPage />} />
+                    <Route path="/duplicate-character-remover/cards" element={<PrivateRouter> <CardsPage /> </PrivateRouter>} />
                 </Routes>
             </UserProvider>
         </NotificationsProvider>

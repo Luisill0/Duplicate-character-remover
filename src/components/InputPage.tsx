@@ -12,7 +12,7 @@ const InputPage = () => {
         event.preventDefault();
         if(inputText.length > 0){
             setText(inputText);
-            navigate('/cards');
+            navigate('/duplicate-character-remover/cards');
         }
         else {
             alert('Provide a non-empty value');
