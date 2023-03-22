@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/duplicate-character-remover/static/css/main.f11af93f.css",
+    "main.js": "/duplicate-character-remover/static/js/main.2efa2e4e.js",
+    "index.html": "/duplicate-character-remover/index.html",
+    "main.f11af93f.css.map": "/duplicate-character-remover/static/css/main.f11af93f.css.map",
+    "main.2efa2e4e.js.map": "/duplicate-character-remover/static/js/main.2efa2e4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f11af93f.css",
+    "static/js/main.2efa2e4e.js"
+  ]
+}
